@@ -1,1 +1,116 @@
 /* You can add global styles to this file, and also import other style files */
+h1 {
+  font-family: garamond-premier-pro-display, serif;
+  letter-spacing: 1px;
+  color: #b1d080;
+}
+
+h2 {
+  color: #b1d080;
+}
+
+h3 {
+  color: #b1d080;
+}
+
+h4 {
+  color: #b1d080;
+}
+
+h5 {
+  color: #b1d080;
+}
+
+a {
+  font-family: garamond-premier-pro-display, serif;
+  color: #b1d080;
+}
+
+p {
+  font-family: garamond-premier-pro-display, serif;
+  color: #b1d080;
+}
+
+.background {
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url('assets/images/blackboard.png');
+}
+
+html {
+  height: auto;
+}
+
+* { padding: 0; margin: 0; }
+html, body, #fullheight {
+  min-height: 100% !important;
+  height: 100%;
+}
+
+.underline-hover:hover {
+  text-decoration: underline;
+}
+
+.underline-hover.active:hover {
+  text-decoration: none;
+}
+
+.dark-background {
+  background-color: #383b3b;
+}
+.fancy-script {
+  font-family: "Snell Roundhand", serif
+}
+.thin-text {
+  font-weight: lighter;
+  font-family: sans-serif;
+  margin-bottom: 0.5rem;
+}
+
+.serif {
+  font-family: garamond-premier-pro-display, serif;
+}
+
+hr {
+  color: gray;
+  border-color: gray;
+  background-color: gray;
+  width: 75%;
+  text-align:center; margin-left: auto; margin-right: auto;
+}
+
+mdb-carousel-item p {
+  color: white;
+}
+
+.center {
+  margin: auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.iframe-loading {
+  background:url(assets/images/loading.gif) center center no-repeat;
+}
+
+.mapouter{
+  text-align:center;
+  height:auto;
+  width:auto;
+}
+
+.gmap_canvas {
+  overflow:hidden;
+  background:none;
+  height:auto;
+  width:auto;
+}

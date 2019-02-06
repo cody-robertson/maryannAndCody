@@ -1,0 +1,14 @@
+a {
+  font-family: garamond-premier-pro-display, serif !important;
+  color: #b1d080 !important;
+}
+
+.navbar-nav.navbar-center {
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+mdb-navbar.navbar {
+  box-shadow: none !important;
+}

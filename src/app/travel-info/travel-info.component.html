@@ -1,0 +1,23 @@
+<!-- Jumbotron -->
+<div class="jumbotron text-center dark-background">
+  <h4>
+    We've reserved a block of rooms at the newly constructed <b>Holiday Inn in Springfield, TN</b>.
+    Just mention the <b>Robertson-Upchurch wedding</b> when you reserve.
+  </h4>
+  <hr>
+  <div id="address">
+    <h4><a href="https://goo.gl/maps/5482ifvy8482" target="_blank"><b>The Holiday Inn</b></a></h4>
+    <h5>2518 Memorial Bld.</h5>
+    <h5>Springfield, TN 37172</h5>
+    <h5>(615) 547-8225</h5>
+  </div>
+  <br>
+  <div class="map-container" *ngIf="!mobile">
+    <div class="iframe-loading" *ngIf="!show"></div>
+    <div class="mapouter center iframe-loading" [hidden]="!show" [@mapLoadState]="stateName"><div class="gmap_canvas"><iframe (load)="showIframe()" src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d102779.40604482451!2d-87.06629027420693!3d36.38846924701221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x886455d3ed481e39%3A0xff369d5d5b9319ed!2sHoliday+Inn+Express+%26+Suites+Nashville+North+-+Springfield%2C+2518+Memorial+Blvd%2C+Springfield%2C+TN+37172!3m2!1d36.4885561!2d-86.86567339999999!4m5!1s0x8864eea8544eee35%3A0x5152e50d29c3e1d8!2sOwen+Farm+Middle+Tennessee+Wedding+Venue%2C+Crocker+Road%2C+Chapmansboro%2C+TN!3m2!1d36.318107399999995!2d-87.1346007!5e0!3m2!1sen!2sus!4v1549069013619" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div><br></div>
+  </div>
+
+  <p><a href="assets/documents/hotel-to-venue.pdf">Printable Directions to Venue from the Hotel</a></p>
+  <p><a href="assets/documents/venue-to-hotel.pdf">Printable Directions to Hotel from the Venue</a></p>
+</div>
+<!-- Jumbotron -->
